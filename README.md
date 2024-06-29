@@ -1,10 +1,10 @@
 # Demystifying B-spline
 
-While studying Kolmogorov-Arnold Networks[$^{[1]}$](https://github.com/KindXiaoming/pykan), I realized that I didn't fully understand B-splines. To aid my comprehension, I used the manim[$^{[2]}$](https://github.com/3b1b/manim) library to create visual resources.
+While studying [Kolmogorov-Arnold Networks](https://github.com/KindXiaoming/pykan), I realized that I didn't fully understand B-splines. To aid my comprehension, I used the [manim](https://github.com/3b1b/manim) library to create visual resources.
 
 ## What is B-spline?
 
-B-splines are mathematical functions used to construct smooth curves. Spline functions are created as linear combinations of B-splines with a set of control points.[$^{[3]}$](https://en.wikipedia.org/wiki/B-spline)
+B-splines are mathematical functions used to construct smooth curves. [Spline functions are created as linear combinations of B-splines with a set of control points.](https://en.wikipedia.org/wiki/B-spline)
 
 $$
 \begin{align}
@@ -23,7 +23,7 @@ b_{j, n}(t) &:= \cfrac{t - t_j}{t_{j + n}-t_j} b_{j, n-1} (t) + \cfrac{t_{j+n+1}
 
 \end{align}
 $$
-- B-spline formula [$^{[4]}$](https://ko.wikipedia.org/wiki/B-%EC%8A%A4%ED%94%8C%EB%9D%BC%EC%9D%B8_%EA%B3%A1%EC%84%A0)
+- [B-spline formula](https://ko.wikipedia.org/wiki/B-%EC%8A%A4%ED%94%8C%EB%9D%BC%EC%9D%B8_%EA%B3%A1%EC%84%A0)
 - NOTE: $t_i\ (\text{knots}) \neq t$
 
 > [!TIP] A B-spline is a curve defined by a `basis function` and `control points`.
