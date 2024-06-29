@@ -44,7 +44,7 @@ Let's examine how the components (`knots vector`, `degree`) affect the basis fun
 https://github.com/hi-jin/Demystifying_B-spline/assets/51053567/fb763e1b-a25f-40ea-8b52-5283c49ab094
 
 
-### How `changing the control point index` $i$ affects the `position of a single basis function`
+### How does `changing the control point index` $i$ affect the `position of a single basis function`
 
 This example demonstrates the role of the control point index.
 As the value increases, the knots referenced to create the basis function change slightly.
@@ -53,7 +53,7 @@ As the value increases, the knots referenced to create the basis function change
 https://github.com/hi-jin/Demystifying_B-spline/assets/51053567/a19fff8b-d50b-4441-8892-27164ae9279f
 
 
-### How `changing the knots position` affects the `shape of the basis function`
+### How does `changing the knots position` affect the `shape of the basis function`
 
 Compare this to the previous video to see how changes in knots impact the basis function.
 
