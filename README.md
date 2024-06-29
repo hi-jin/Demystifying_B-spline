@@ -38,7 +38,7 @@ Basis function $b_{i, n}$ is composed of a `knots vector` $t_{..}$ and `degree` 
 
 Let's examine how the components (`knots vector`, `degree`) affect the basis function.
 
-### How `changing the degree` affects the `shape of the basis function`
+### How does `changing the degree` affect the `shape of the basis function`
 
 
 https://github.com/hi-jin/Demystifying_B-spline/assets/51053567/fb763e1b-a25f-40ea-8b52-5283c49ab094
