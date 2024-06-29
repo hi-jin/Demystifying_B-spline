@@ -20,7 +20,6 @@ b_{j, 0}(t) &:=
 ,\qquad j = 0, \dots, m-2
 \\
 b_{j, n}(t) &:= \cfrac{t - t_j}{t_{j + n}-t_j} b_{j, n-1} (t) + \cfrac{t_{j+n+1} - t}{t_{j + n + 1} - t_{j + 1}} b_{j + 1, n- 1} (t),\qquad j = 0, \dots, m - n - 2.
-
 \end{align}
 $$
 - [B-spline formula](https://ko.wikipedia.org/wiki/B-%EC%8A%A4%ED%94%8C%EB%9D%BC%EC%9D%B8_%EA%B3%A1%EC%84%A0)
