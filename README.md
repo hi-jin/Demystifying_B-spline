@@ -25,7 +25,8 @@ $$
 - [B-spline formula](https://ko.wikipedia.org/wiki/B-%EC%8A%A4%ED%94%8C%EB%9D%BC%EC%9D%B8_%EA%B3%A1%EC%84%A0)
 - NOTE: $t_i\ (\text{knots}) \neq t$
 
-> [!TIP] A B-spline is a curve defined by a `basis function` and `control points`.
+> [!TIP]
+> A B-spline is a curve defined by a `basis function` and `control points`.
 
 ## What is a Basis function ($b_{i, n}$)?
 
